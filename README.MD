@@ -6,13 +6,28 @@ for an existing traditional Windows/IIS ASP.NET 4.5 MVC
 application underpinned by a SQL Server database, by achieving
 following goals:
 
+## Milestone 0
+
+- Create test/regression suite, per [Issue #1](/../../issues/1).
+
+## Milestone 1
+
 - Target not only Windows, but also Linux, including Docker
 containers and container orchestrators like Kubernetes.
 - Make it compatible with PostgreSQL open-source database, to
 enable usage of scalable could-based PostgreSQL as a service.
 - Eliminate dependencies on components requiring proprietary
 licenses.
-- In the future, replace relational database with an eventually
+
+## Milestone 2
+
+- Use AWS or Kubernetes-based CI/CD pipeline to automate software
+build, validation (security, license, quality), and "canary"
+deployment to production.
+
+## Milestone 3
+
+- Replace relational database with an eventually
 -consistent, highly scalable cloud data store.
 
 # System Requirements
