@@ -12,7 +12,7 @@ following goals:
 
 ## Milestone 1
 
-- Conver the project to .NET Core 2.x to target not only Windows,
+- Convert the project to .NET Core 2.x to target not only Windows,
 but also Linux, including Docker containers and container
 orchestrators like Kubernetes.
 - Make it compatible with PostgreSQL open-source database, to
